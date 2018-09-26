@@ -17,7 +17,7 @@ public final class Negociacao implements Serializable{
 			throw new IllegalArgumentException("data nao pode ser nula");
 		}
 		
-		this.preco = _preco;
+		this.preco = preco;
 		this.quantidade = quantidade;
 		this.data = (Calendar) data.clone();
 	}
